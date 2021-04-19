@@ -1,13 +1,24 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  border: 5 px solid black;
+}
+
 body {
+  margin: 8px;
+  box-sizing: border-box;
+  height: 100%;
+
   color: bisque;
   background-color: coral;
+  border: 5px solid bisque;
 }
 h1 {
   margin: 0;
   padding-top: 350px;
   font-family: 'Zilla Slab Highlight';
   font-weight: 700;
-  font-size: 20;
+  font-size: 150px;
   text-align: center;
 }
 
