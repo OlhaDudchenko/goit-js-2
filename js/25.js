@@ -20,5 +20,18 @@ console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
 console.log(getCommonElements([5, 2, 13], [10, 20, 30]));
 
 
-  
+//   function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   const commonElements =[];
+// for(let i = 0; i < array1.length; i +=1){
+// if (array2.includes(array1[i])){
+
+//       commonElements.push(array1[i]) }
+
+// }
+// return commonElements;
+
+//  // Change code above this line
+// }
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
   

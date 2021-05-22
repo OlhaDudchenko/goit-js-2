@@ -16,6 +16,28 @@ function findLongestWord(string) {
 
 }
 
+function findLongestWord(string) {
+
+  const updateString = string.split(' ');
+  // console.log(updateString);
+  let longestWord = '';
+  for (let i = 0; i < updateString.length; i+=1){
+    // console.log(updateString[i]);
+    if (updateString[i].length > longestWord.length) {
+      //  console.log( updateString[i].length > longestWord)
+      longestWord = updateString[i];
+    
+     
+    }
+  
+  }
+  return longestWord ;
+  
+}
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+
+
 
 console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
 console.log(findLongestWord('Google do a roll'));

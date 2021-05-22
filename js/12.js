@@ -1,14 +1,10 @@
-function slugify(title) {
-  // Пиши код ниже этой строки
- 
- return title.toLowerCase().split(' ').join('-');
- 
-  // Пиши код выше этой строки
+function makeStringFromArray(array, delimeter) {
+  let string;
+  // Change code below this line
+
+string = array.join(delimeter);
+
+  // Change code above this line
+  return string;
 }
-console.log(slugify('Массивы для новичков'));
-
-console.log(slugify('Английский для разработчика'));
-
-console.log(slugify('Десять секретов JavaScript'));
-
-console.log(slugify('Как стать JUNIOR разработчиком за ДВЕ НЕДЕЛИ'));
+console.log(makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " "));
